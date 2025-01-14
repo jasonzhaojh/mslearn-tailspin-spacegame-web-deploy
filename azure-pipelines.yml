@@ -84,6 +84,6 @@ stages:
           - task: AzureWebApp@1
             displayName: 'New Azure App Service Deploy: website'
             inputs:
-              azureSubscription: 'deploy-python'
+              azureSubscription: '746d34b6-be58-435d-a3a8-bc9decceb86c'
               appName: '$(WebAppName)'
               package: '$(Pipeline.Workspace)/drop/$(buildConfiguration)/*.zip'
