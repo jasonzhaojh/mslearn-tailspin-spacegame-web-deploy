@@ -82,7 +82,7 @@ stages:
           - download: current
             artifact: drop
           - task: AzureWebApp@1
-            displayName: 'Azure App Service Deploy: website'
+            displayName: 'New Azure App Service Deploy: website'
             inputs:
               azureSubscription: 'deploy-python'
               appName: '$(WebAppName)'
