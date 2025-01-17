@@ -1,0 +1,12 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "sites_tailspin_space_game_web_1234_name": {
+            "value": null
+        },
+        "serverfarms_ASP_DevOpsTestRG_806e_externalid": {
+            "value": null
+        }
+    }
+}
